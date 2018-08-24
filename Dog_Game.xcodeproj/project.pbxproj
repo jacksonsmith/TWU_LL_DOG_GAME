@@ -34,17 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7AC155E2213038B300440E8A /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AC155E2213038B300440E8A /* Dog_Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dog_Game.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AC155E5213038B300440E8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AC155E7213038B300440E8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7AC155EA213038B300440E8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7AC155EC213038B600440E8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AC155EF213038B600440E8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7AC155F1213038B600440E8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7AC155F6213038B600440E8A /* HelloWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AC155F6213038B600440E8A /* Dog_GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dog_GameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AC155FA213038B600440E8A /* HelloWorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldTests.swift; sourceTree = "<group>"; };
 		7AC155FC213038B600440E8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7AC15601213038B600440E8A /* HelloWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AC15601213038B600440E8A /* Dog_GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dog_GameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AC15605213038B600440E8A /* HelloWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldUITests.swift; sourceTree = "<group>"; };
 		7AC15607213038B600440E8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,9 +87,9 @@
 		7AC155E3213038B300440E8A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7AC155E2213038B300440E8A /* HelloWorld.app */,
-				7AC155F6213038B600440E8A /* HelloWorldTests.xctest */,
-				7AC15601213038B600440E8A /* HelloWorldUITests.xctest */,
+				7AC155E2213038B300440E8A /* Dog_Game.app */,
+				7AC155F6213038B600440E8A /* Dog_GameTests.xctest */,
+				7AC15601213038B600440E8A /* Dog_GameUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7AC155E1213038B200440E8A /* HelloWorld */ = {
+		7AC155E1213038B200440E8A /* Dog_Game */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7AC1560A213038B600440E8A /* Build configuration list for PBXNativeTarget "HelloWorld" */;
+			buildConfigurationList = 7AC1560A213038B600440E8A /* Build configuration list for PBXNativeTarget "Dog_Game" */;
 			buildPhases = (
 				7AC155DE213038B200440E8A /* Sources */,
 				7AC155DF213038B200440E8A /* Frameworks */,
@@ -140,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = HelloWorld;
+			name = Dog_Game;
 			productName = HelloWorld;
-			productReference = 7AC155E2213038B300440E8A /* HelloWorld.app */;
+			productReference = 7AC155E2213038B300440E8A /* Dog_Game.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7AC155F5213038B600440E8A /* HelloWorldTests */ = {
+		7AC155F5213038B600440E8A /* Dog_GameTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7AC1560D213038B600440E8A /* Build configuration list for PBXNativeTarget "HelloWorldTests" */;
+			buildConfigurationList = 7AC1560D213038B600440E8A /* Build configuration list for PBXNativeTarget "Dog_GameTests" */;
 			buildPhases = (
 				7AC155F2213038B600440E8A /* Sources */,
 				7AC155F3213038B600440E8A /* Frameworks */,
@@ -158,14 +158,14 @@
 			dependencies = (
 				7AC155F8213038B600440E8A /* PBXTargetDependency */,
 			);
-			name = HelloWorldTests;
+			name = Dog_GameTests;
 			productName = HelloWorldTests;
-			productReference = 7AC155F6213038B600440E8A /* HelloWorldTests.xctest */;
+			productReference = 7AC155F6213038B600440E8A /* Dog_GameTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7AC15600213038B600440E8A /* HelloWorldUITests */ = {
+		7AC15600213038B600440E8A /* Dog_GameUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7AC15610213038B600440E8A /* Build configuration list for PBXNativeTarget "HelloWorldUITests" */;
+			buildConfigurationList = 7AC15610213038B600440E8A /* Build configuration list for PBXNativeTarget "Dog_GameUITests" */;
 			buildPhases = (
 				7AC155FD213038B600440E8A /* Sources */,
 				7AC155FE213038B600440E8A /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				7AC15603213038B600440E8A /* PBXTargetDependency */,
 			);
-			name = HelloWorldUITests;
+			name = Dog_GameUITests;
 			productName = HelloWorldUITests;
-			productReference = 7AC15601213038B600440E8A /* HelloWorldUITests.xctest */;
+			productReference = 7AC15601213038B600440E8A /* Dog_GameUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +204,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7AC155DD213038B200440E8A /* Build configuration list for PBXProject "HelloWorld" */;
+			buildConfigurationList = 7AC155DD213038B200440E8A /* Build configuration list for PBXProject "Dog_Game" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,9 +217,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7AC155E1213038B200440E8A /* HelloWorld */,
-				7AC155F5213038B600440E8A /* HelloWorldTests */,
-				7AC15600213038B600440E8A /* HelloWorldUITests */,
+				7AC155E1213038B200440E8A /* Dog_Game */,
+				7AC155F5213038B600440E8A /* Dog_GameTests */,
+				7AC15600213038B600440E8A /* Dog_GameUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -282,12 +282,12 @@
 /* Begin PBXTargetDependency section */
 		7AC155F8213038B600440E8A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7AC155E1213038B200440E8A /* HelloWorld */;
+			target = 7AC155E1213038B200440E8A /* Dog_Game */;
 			targetProxy = 7AC155F7213038B600440E8A /* PBXContainerItemProxy */;
 		};
 		7AC15603213038B600440E8A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7AC155E1213038B200440E8A /* HelloWorld */;
+			target = 7AC155E1213038B200440E8A /* Dog_Game */;
 			targetProxy = 7AC15602213038B600440E8A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -476,7 +476,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWorld.app/HelloWorld";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dog_Game.app/Dog_Game";
 			};
 			name = Debug;
 		};
@@ -496,7 +496,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWorld.app/HelloWorld";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dog_Game.app/Dog_Game";
 			};
 			name = Release;
 		};
@@ -541,7 +541,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7AC155DD213038B200440E8A /* Build configuration list for PBXProject "HelloWorld" */ = {
+		7AC155DD213038B200440E8A /* Build configuration list for PBXProject "Dog_Game" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7AC15608213038B600440E8A /* Debug */,
@@ -550,7 +550,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7AC1560A213038B600440E8A /* Build configuration list for PBXNativeTarget "HelloWorld" */ = {
+		7AC1560A213038B600440E8A /* Build configuration list for PBXNativeTarget "Dog_Game" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7AC1560B213038B600440E8A /* Debug */,
@@ -559,7 +559,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7AC1560D213038B600440E8A /* Build configuration list for PBXNativeTarget "HelloWorldTests" */ = {
+		7AC1560D213038B600440E8A /* Build configuration list for PBXNativeTarget "Dog_GameTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7AC1560E213038B600440E8A /* Debug */,
@@ -568,7 +568,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7AC15610213038B600440E8A /* Build configuration list for PBXNativeTarget "HelloWorldUITests" */ = {
+		7AC15610213038B600440E8A /* Build configuration list for PBXNativeTarget "Dog_GameUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7AC15611213038B600440E8A /* Debug */,
